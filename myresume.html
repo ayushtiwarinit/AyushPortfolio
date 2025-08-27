@@ -1,4 +1,4 @@
-<!-- Improved Resume of Ayush Kumar Tiwari -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +18,7 @@
       line-height: 1.7;
     }
     .container {
-      max-width: 800px;
+      max-width: 1000px;
       margin: 20px auto;
       padding: 32px;
       background: white;
@@ -85,6 +85,7 @@
       font-size: 1.08rem;
       font-family: 'Inter', 'Roboto', sans-serif;
     }
+    
     .institution, .company {
       color: #4a5568;
       font-size: 1rem;
@@ -171,6 +172,25 @@
         gap: 24px;
       }
     }
+    .project-title {
+  position: relative;
+  padding-left: 22px; /* space for icon */
+  font-weight: 600;
+  font-size: 1.08rem;
+  color: #23272f;
+}
+
+.project-title::before {
+  content: "\2756";   /* ❖ outlined diamond */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #1a365d;     /* navy blue */
+  font-size: 1rem;
+  margin-right: 8px;
+}
+
   </style>
 </head>
 <body>
@@ -178,7 +198,6 @@
     <!-- Header -->
     <div class="header">
       <div class="name">Ayush Kumar Tiwari</div>
-      <div class="branch">Computer Science and Engineering</div>
       <div class="contact-info">
         <a href="tel:+918005584050"><i class="fas fa-phone icon"></i>+91 8005584050</a>
         <a href="mailto:ayushtiwa2002@gmail.com"><i class="fas fa-envelope icon"></i>ayushtiwa2002@gmail.com</a>
@@ -188,14 +207,12 @@
       </div>
     </div>
 
-    <!-- Summary -->
     <div class="section">
       <div class="section-title">Professional Summary</div>
       <p>
         Passionate computer science student at National Institute Of Technology Nagaland with a keen interest in full-stack web development, machine learning,  and solving real-world problems through technology. Driven by curiosity, leadership, and a desire to grow, I’m eager to contribute to innovative, forward-thinking teams.
       </p>
     </div>
-
     <!-- Education -->
     <div class="section">
         <div class="section-title">Education</div>
@@ -229,7 +246,7 @@
   <div class="section-title">Projects</div>
 
   <div class="project-block">
-    <div class="project-title">EasyBooking – Online Booking Platform 
+    <div class="project-title"> EasyBooking – Online Booking Platform 
       <a href="https://mern-proejct.onrender.com/listings" target="_blank" style="font-size:0.9rem; color:#3498db; text-decoration:none; margin-left:8px;">
     [Live Demo]
   </a>
@@ -240,29 +257,33 @@
       <li>Designed a responsive front-end with React and Bootstrap.</li>
     </ul>
     <div style="font-size:0.97rem;">
-      <strong>Tech Stack:</strong> MongoDB, Express.js, React, Node.js, EJS, Bootstrap, JavaScript, CSS
+      <strong> &nbsp; &nbsp; &nbsp; Tech Stack:</strong> MongoDB, Express.js, React, Node.js, EJS, Bootstrap, JavaScript, CSS
     </div>
   </div>
 
   <div class="project-block">
-    <div class="project-title">UPI Fraud Detection System <span class="date">Fall 2024 – Ongoing</span></div>
+    <div class="project-title"> UPI Fraud Detection System <span class="date">Fall 2024 – Ongoing</span></div>
     <ul>
       <li>Designed and implemented a machine learning-based UPI fraud detection system utilizing Random Forest and Logistic Regression algorithms, achieving an accuracy of 80% on test datasets.</li>
       <li>Built an interactive Flask web application for real-time fraud detection with a clean user interface and integrated API endpoints for data prediction.</li>
     </ul>
     <div style="font-size:0.97rem;">
-      <strong>Tech Stack:</strong> Python, Flask,  Pandas, ML models.
+      <strong> &nbsp; &nbsp; &nbsp; Tech Stack:</strong> Python, Flask,  Pandas, ML models.
     </div>
   </div>
 
   <div class="project-block">
-    <div class="project-title">Personal Health Management Website <span class="date">Spring 2023</span></div>
+    <div class="project-title"> Personal Health Management Website 
+      <a href="https://ayushtiwarinit.github.io/Personal-Health-Management-Website/" target="_blank" style="font-size:0.9rem; color:#3498db; text-decoration:none; margin-left:8px;">
+    [Live Demo]
+  </a>
+  <span class="date">Spring 2023</span></div>
     <ul>
       <li>Built dynamic front-end components using HTML, CSS, and JavaScript; utilized form validation for improved user experience.</li>
       <li>Connected to a backend database using Flask and MySQL, storing user medical history, generating personalized health tips based on user inputs.</li>
     </ul>
     <div style="font-size:0.97rem;">
-      <strong>Tech Stack:</strong> HTML, CSS, JavaScript, Flask, MySQL
+      <strong> &nbsp; &nbsp; &nbsp; Tech Stack:</strong> HTML, CSS, JavaScript, Flask, MySQL
     </div>
   </div>
 </div>
@@ -272,11 +293,11 @@
     <div class="section">
       <div class="section-title">Achievements/ Certificates</div>
       <ul class="list-group">
-      <li><i class="fas fa-certificate"></i>IBM Data Fundamentals Certificate – IBM SkillsBuild </li>   
-      <li><i class="fas fa-certificate"></i>Front-End Development – Simplilearn </li>
-      <li><i class="fas fa-certificate"></i>Advanced Python Programming – Simplilearn </li>
-      <li><i class="fas fa-certificate"></i>Machine Learning with Python – freeCodeCamp </li>
-      <li><i class="fas fa-certificate"></i>JavaScript & Data Structure – freeCodeCamp </li>
+      <li>&#10070; &nbsp;IBM Data Fundamentals Certificate – IBM SkillsBuild </li>   
+      <li>&#10070; &nbsp;Front-End Development – Simplilearn </li>
+      <li>&#10070; &nbsp;Advanced Python Programming – Simplilearn </li>
+      <li>&#10070; &nbsp;Machine Learning with Python – freeCodeCamp </li>
+      <li>&#10070; &nbsp;JavaScript & Data Structure – freeCodeCamp </li>
         </ul>
     </div> 
 
@@ -307,16 +328,16 @@
           </ul>
         </div>
         <div style="flex:1; min-width:160px;">
-          <div style="font-weight:600; margin-bottom:2px;">Hobbies</div>
-          <ul style="margin:0; padding-left:18px;">
+          <div style="font-weight:600; margin-bottom:2px; padding-left: 20px;">Hobbies</div>
+          <ul style="margin:0; padding-left:40px;">
             <li>Yoga</li>
             <li>Cricket</li>
             <li>Chess</li>
           </ul>
         </div>
         <div style="flex:1; min-width:160px;">
-          <div style="font-weight:600; margin-bottom:2px;">Soft Skills</div>
-          <ul style="margin:0; padding-left:18px;">
+          <div style="font-weight:600; margin-bottom:2px; padding-left: 20px;">Soft Skills</div>
+          <ul style="margin:0; padding-left:40px;">
             <li>Leadership</li>
             <li>Teamwork</li>
             <li>Problem-solving</li>
